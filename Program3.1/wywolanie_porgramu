@@ -1,0 +1,4 @@
+ ./a.out -dc in_data/Melo. -d in_data/test -an 5  -wn 900  -dcw tutaj -dw moze
+
+valgrind --leak-check=yes ./a.out -dc tutaj -an 4  -wn 40  -dcw tutaj -dw moze
+
